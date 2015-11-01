@@ -67,6 +67,7 @@ eg:
 
 12. \<F1> - \<F12> F1-F12 功能键
 
+13. <nop> 无操作
 
 ###  map-modes 查看map快捷键作用范围
     :h map-modes <!--查看map-modes-->
@@ -77,3 +78,8 @@ eg:
 
 2. insert mode 转化单词为大写
     :imap <c-u> <esc>gUiwea
+
+3. open .vimrc file
+    :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+4. take .vimrc effect
+    :nnoremap <leader>sv :source $MYVIMRC<cr>

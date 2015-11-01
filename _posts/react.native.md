@@ -6,3 +6,5 @@
 [React Native 介绍](http://facebook.github.io/react/blog/2015/03/26/introducing-react-native.html)
 
 [showcase 展示](https://facebook.github.io/react-native/showcase.html)
+
+[React Native 中文版](http://wiki.jikexueyuan.com/project/react-native/)
