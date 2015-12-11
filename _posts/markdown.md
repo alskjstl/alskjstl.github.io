@@ -71,7 +71,7 @@ eg:
  
     `[id]: http://25.io/mou/ "Markdown editor on Mac OS X"`
 
-3.   <http://xiaojukeji.com> <!--自动链接-->
+3.   <http://www.github.com> <!--自动链接-->
 
 ### 图片语法
 
