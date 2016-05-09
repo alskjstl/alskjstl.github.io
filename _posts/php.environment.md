@@ -19,3 +19,19 @@ pecl install ZendOpcache
 
 ### php-mysql 安装
 yum -y install php-mysql  //you don't need to use "pecl install pdo_mysql"
+
+### 启动php自带服务器
+官方说明：http://php.net/manual/zh/features.commandline.webserver.php
+php -S localhost:8080 //配置域名为localhost,端口为8080
+php -S localhost:8080 -t /home/webroot/www //另外配置服务根目录是/home/webroot/www
+php -S 0.0.0.0:8080 -t /home/webroot/www 支持远程调用
+例子：
+php -S 0:8080 router.php
+请求图片直接显示图片，请求HTML则显示“Welcome to PHP”
+<?php
+// router.php
+if (preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"]))
+    return false;    // 直接返回请求的文件
+else { 
+    echo "<p>Welcome to PHP</p>";
+}

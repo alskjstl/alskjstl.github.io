@@ -45,3 +45,23 @@ http://zuyunfei.com/categories/Vim/
     gU{motion},例如：iw是单词，gUiw是大写单词
 6. 小写
     gu{motion}
+7. r/R
+   r是替换当前字符，R是一直替换
+
+### 通过vim编辑shell命令 
+进入 ctrl+e+x
+退出 shift z+z
+
+### 设定shell 默认编辑器
+export EDITOR=vim
+
+### 解决vim中单行字符过长显示问题 
+set wrap
+
+### vim 删除定界符元素 
+di<delimeter> 删除元素不删除定界符
+ci<delimeter> 更改定界符包含的元素
+ai<delimeter> 删除元素和定界符
+
+### vim - 通过管道读取文件
+cat <(curl https://raw.githubusercontent.com/hilojack/php-lib/master/yield/stacked-coroutine.php)  | vim -

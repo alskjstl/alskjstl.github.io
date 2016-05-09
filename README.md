@@ -1,4 +1,4 @@
-hilojack.github.io
+alskjstl.github.io
 ==================
 
-Hilojack blog
+[Jeff blog](http://alskjstl.github.io/)
