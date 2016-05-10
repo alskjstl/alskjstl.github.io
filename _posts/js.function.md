@@ -122,3 +122,48 @@ var person = {
 
 ### 装饰器
 
+### 箭头方法
+定义1：
+说明：一个参数时
+举例：
+x => x * x;
+
+定义2：
+说明：函数体有多个语句时用{}括起来
+举例：
+x => {
+    if (x != 0){
+        return x * x;
+    }else{
+        return 0;
+    }
+}
+
+定义3：
+说明：输入参数有多个时用()括起来
+举例：
+(x,y) => {
+    if (x > y){
+        return 1;
+    }elseif(x < y){
+        return -1;
+    }else{
+        return 0;
+    }
+}
+
+定义4：
+说明：输入参数有多个时用rest
+举例：
+(x,y,...rest) => {
+    var sum = 0;
+    for (var i=0;i<rest.length;i++){
+        sum += rest[i];
+    }
+    return sum;
+}
+
+定义5：
+说明：返回值为对象时，必须加()区别对象{}和方法体的{}语法
+举例：
+(lat,lng) => ({'lat':lat,'lng':lng});

@@ -23,3 +23,28 @@ obj['key']
 举例：
 obj.hasOwnProperty('key');//输出true
 obj.hasOwnProperty('toString');//输出false，toString属性属于父类非对象自有属性
+
+### 属性为匿名方法
+举例：
+var makeCounter = function() {
+var privateCounter = 0;
+    function changeBy(val) {
+    privateCounter += val;
+}
+return {//这里是匿名对象
+    increment: function() { //属性increment的值是匿名方法
+        changeBy(1);
+    },
+    decrement: function() {
+        changeBy(-1);
+    },
+    value: function() {
+        return privateCounter;
+    }
+ }
+};
+
+### 打印对象
+举例：
+var obj = {'a':1,'b':2};
+console.log(obj);
