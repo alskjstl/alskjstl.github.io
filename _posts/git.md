@@ -91,3 +91,6 @@ commit可以是简写的commit哈希值，也可是是HEAD。其中HEAD代表最
 
 ### git status
 git status --untracked-files=no 过滤掉未跟踪的文件
+
+### git commit
+git commit --amend  修改上次的提交，将多次commit合并为一次
