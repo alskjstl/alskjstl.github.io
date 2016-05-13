@@ -94,3 +94,12 @@ git status --untracked-files=no 过滤掉未跟踪的文件
 
 ### git commit
 git commit --amend  修改上次的提交，将多次commit合并为一次
+
+### git clean
+说明：从工作树移除未跟踪文件或目录
+git clean -n //显示即将删除的文件,不实际删除
+git clean -f //强制删除
+git clean -i //交互式的删除
+git clean -f -d //强制删除未跟踪的目录
+git clean -f -X //仅仅删除忽略的文件
+git clean -f -x 
