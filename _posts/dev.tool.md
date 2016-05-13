@@ -33,3 +33,18 @@ touch /Users/yourname/Downloads/session.txt && aria2c --enable-rpc --rpc-listen-
 3. 创建Web下载页面
    仓库地址：https://github.com/ziahamza/webui-aria2
    打开index.html，打开之前确保aria2 服务是启动的
+
+### iTerm 2
+官网：https://www.iterm2.com/
+
+### brew
+官网：http://brew.sh/
+Git仓库:https://github.com/Homebrew/brew
+
+### Alfred 2
+官网：https://www.alfredapp.com/
+
+### lantern 蓝灯
+官网：https://www.getlantern.org/
+Git仓库：https://groups.google.com/forum/#!forum/lantern-users-zh
+Aws下载地址:https://s3.amazonaws.com/lantern/lantern-installer-beta.dmg
