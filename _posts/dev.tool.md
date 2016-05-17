@@ -48,3 +48,7 @@ Git仓库:https://github.com/Homebrew/brew
 官网：https://www.getlantern.org/
 Git仓库：https://groups.google.com/forum/#!forum/lantern-users-zh
 Aws下载地址:https://s3.amazonaws.com/lantern/lantern-installer-beta.dmg
+
+### Sequel Pro
+说明：开源免费的数据库GUI客户端
+地址：http://www.sequelpro.com/
