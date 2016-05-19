@@ -25,4 +25,5 @@ command + d 复制当前行
 command + y 删除当前
 command + j 调用输出模板
 
+command + F12 显示当前文件中的方法列表
 
