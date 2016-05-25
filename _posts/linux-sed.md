@@ -8,3 +8,7 @@ Linux 语法：sed -i 's/182/189/g' a.txt
 ### 指定行新增内容
 sed '2a 666' a.txt //在第二行之后新增内容666
 sed '2,4a 666' a.txt //在第二行和第四行之后新增666
+
+### Sed Tutorial
+http://www.tutorialspoint.com/sed/sed_loops.htm
+https://linuxconfig.org/learning-linux-commands-sed
