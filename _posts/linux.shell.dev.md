@@ -95,12 +95,11 @@ $* 输入参数的列表,接收到的是字符串
 $# 输入参数的个数
 $? 命令执行的状态码
 
-### 从shell执行php脚本赋值给变量
-举例：
-data=$(/usr/local/bin/php -f index.php);
-echo $data
-
 ### 获取path的目录
 举例：
 path='/home/webroot/index.php'
 echo $(dirname ${path})
+
+### 执行shell变量构成的语句
+cmd='ls'
+sh -c "$cmd"
