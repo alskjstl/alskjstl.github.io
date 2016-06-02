@@ -5,3 +5,6 @@
 
 ### 知乎Mac 总结
 1. [程序员如何优雅的使用Mac](http://www.zhihu.com/question/20873070)
+
+### 添加sudoers
+sudo visudo
