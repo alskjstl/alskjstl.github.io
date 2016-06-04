@@ -65,3 +65,6 @@ ai<delimeter> 删除元素和定界符
 
 ### vim - 通过管道读取文件
 cat <(curl https://raw.githubusercontent.com/hilojack/php-lib/master/yield/stacked-coroutine.php)  | vim -
+
+### vim 解决粘贴格式错乱
+set paste
