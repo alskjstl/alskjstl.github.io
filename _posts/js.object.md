@@ -69,3 +69,13 @@ JavaScript的值可以分为两种类型：基本类型和对象类型，基本�
 2. 基本类型是不可变的，换种说法就是它们的值不能改变。对比而言，对象类型是可变的，它们的值可以更新和改变。
 3. 基本类型可以按值比较，当我们把一个基本类型赋值给另外一个基本类型，是复制了一个值。而对象这是通过引用进行比较，引用的是什么呢？引用的是底层对象。当我们赋值一个对象给另一个对象时。引用指针就创建了。在这个情况下，改变一个对象的值将更新另外一个对象的值。
 当我们尝试在基本类型的值中调用方法时，JavaScript使用包装对象来临时控制基本类型，导致对象变为只读的并在垃圾回收后执行。
+
+### json 序列化和反序列化
+举例:
+var obj = {name:"Yele",gender:true};
+JSON.stringify(obj); //序列化后：{"name":"Yele","gender":true}
+JSON.parse('{"name":"Yele","gender":true}'); //反序列化后：{name:"Yele",gender:true}
+说明：stringify和parse 第二个参数均可接收函数，对每个元素转化前做处理
+JSON.stringify(obj,function(){});
+JSON.parse(jsonstr,function(){});
+
