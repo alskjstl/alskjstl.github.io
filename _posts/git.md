@@ -103,3 +103,8 @@ git clean -i //交互式的删除
 git clean -f -d //强制删除未跟踪的目录
 git clean -f -X //仅仅删除忽略的文件
 git clean -f -x 
+
+### git rm
+说明：
+git rm --cached file  //删除仓库文件保留本地文件,记得最后要git commit 和 git push
+
