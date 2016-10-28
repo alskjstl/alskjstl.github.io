@@ -12,3 +12,4 @@ sed '2,4a 666' a.txt //在第二行和第四行之后新增666
 ### Sed Tutorial
 http://www.tutorialspoint.com/sed/sed_loops.htm
 https://linuxconfig.org/learning-linux-commands-sed
+http://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856901.html

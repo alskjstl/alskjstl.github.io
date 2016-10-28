@@ -7,3 +7,6 @@ grep -f a.txt b.txt
 ### -F 参数使用,正则表达式按照字符串处理
 echo '^hello$'|grep '^hello$' //不匹配
 echo '^hello$'|grep -F '^hello$' //匹配
+
+### 示例
+http://www.cnblogs.com/end/archive/2012/02/21/2360965.html

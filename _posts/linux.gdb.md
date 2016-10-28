@@ -11,3 +11,6 @@ echo "1" > /proc/sys/kernel/core_uses_pid
 
 ### 分析core日志
 gdb -c core-zsh-300-113000
+
+### 参考文档
+http://www.gnu.org/software/gdb/
